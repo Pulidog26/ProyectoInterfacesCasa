@@ -1,0 +1,54 @@
+#container{
+    position: absolute;
+    display: flex;
+    width: 99%;
+    height: 99%;
+    background-color: #ffffff;    
+}
+
+#plano{
+    background-image:url("../src/PlanoApartamento.jpg");
+    /*background-color: url("../src/PlanoApartamento.jpg");*/
+    background-size: 40%;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 60%;    
+}
+
+/*.luz{
+    /*position: relative;
+    background-color: #b7c725;
+    /*opacity: 50%;
+}*/
+.Alcoba3{
+    position: sticky;
+    background-color: #b7c725;
+    opacity: 50%;
+    width: 157.3px;
+    height: 165px;
+    left: 47.15%;
+    top: 25%;
+}
+
+.Alcoba2{
+    position: sticky;
+    background-color: #b7c725;
+    opacity: 50%;
+    width: 165px;
+    height:165px;
+    left: 55.75%;
+    top:25%;
+}
+
+.Alcoba1{
+    position: sticky;
+    background-color: #b7c725;
+    opacity: 50%;
+    width: 180px;
+    height: 301px;
+    left: 59.15%;
+    top: 48.6%;
+}
+
