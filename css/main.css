@@ -23,7 +23,7 @@
     /*opacity: 50%;
 }*/
 .Alcoba3{
-    position: sticky;
+    position: fixed;
     background-color: #b7c725;
     opacity: 50%;
     width: 157.3px;
@@ -33,7 +33,7 @@
 }
 
 .Alcoba2{
-    position: sticky;
+    position: fixed;
     background-color: #b7c725;
     opacity: 50%;
     width: 165px;
@@ -43,12 +43,62 @@
 }
 
 .Alcoba1{
-    position: sticky;
+    position: fixed;
     background-color: #b7c725;
     opacity: 50%;
     width: 180px;
     height: 301px;
     left: 59.15%;
     top: 48.6%;
+}
+
+.baño1{
+    position: fixed;
+    background-color: #b7c725;
+    opacity: 50%;
+    width: 78px;
+    height: 138px;
+    left: 50.1%;
+    top: 55.5%;
+}
+
+.baño2{
+    position: fixed;
+    background-color: #b7c725;
+    opacity: 50%;
+    width: 78px;
+    height: 138px;
+    left: 54.7%;
+    top: 55.5%;
+}
+
+.cocina{
+    position: fixed;
+    background-color: #b7c725;
+    opacity: 50%;
+    width: 189px;
+    height: 113px;
+    left: 34.7%;
+    top: 58.5%;
+}
+
+.lavado{
+    position:fixed;
+    background-color: #b7c725;
+    opacity: 50%;
+    width: 93px;
+    height: 95px;
+    left: 44.8%;
+    top: 60.4%;
+}
+
+.sala{
+    position: fixed;
+    background-color: #b7c725;
+    opacity: 50%;
+    width: 297px;
+    height: 213px;
+    left:31.2%;
+    top:30.5%;
 }
 
