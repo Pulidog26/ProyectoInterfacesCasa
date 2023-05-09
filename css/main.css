@@ -175,3 +175,83 @@
     left: 31.15%;
     top: 65%;
 }
+
+.ventanaAlcoba3{
+    position: fixed;
+    opacity: 50%;
+    background-color: #00ffff; /*#3131fc Azul oscuro*/
+    width: 104px;
+    height: 8px;
+    left: 48.7%;
+    top: 24.1%;
+}
+
+.ventanaAlcoba2{
+    position: fixed;
+    opacity: 50%;
+    background-color: #00ffff;
+    width: 104px;
+    height: 8px;
+    left: 57%;
+    top: 24.1%
+}
+
+.ventanaAlcoba1{
+    position: fixed;
+    opacity: 50%;
+    background-color: #00ffff;
+    width: 71px;
+    height: 8px;
+    left: 64.8%;
+    top: 47.7%;
+}
+
+.ventanaBaño1{
+    position: fixed;
+    opacity: 50%;
+    background-color: #00ffff;
+    width: 38px;
+    height: 8px;
+    left: 52.25%;
+    top: 71.2%;
+}
+
+.ventanaBaño2{
+    position: fixed;
+    opacity: 50%;
+    background-color: #00ffff;
+    width: 38px;
+    height: 8px;
+    left: 55.5%;
+    top: 71.2%;
+}
+
+.ventanaLavado{
+    position: fixed;
+    opacity: 50%;
+    background-color: #00ffff;
+    width: 38px;
+    height: 8px;
+    left: 47.7%;
+    top: 71.2%;
+}
+
+.ventanaIzquierdaBalcon{
+    position: fixed;
+    opacity: 50%;
+    background-color: #00ffff;
+    width: 123px;
+    height: 8px;
+    left: 31.2%;
+    top: 29.5%;
+}
+
+.ventanaDerechaBalcon{
+    position: fixed;
+    opacity: 50%;
+    background-color: #00ffff;
+    width: 123px;
+    height: 8px;
+    left: 40.3%;
+    top: 29.5%;
+}
