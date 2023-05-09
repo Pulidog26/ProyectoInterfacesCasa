@@ -102,3 +102,76 @@
     top:30.5%;
 }
 
+.puertaAlcoba3{
+    position: fixed;
+    opacity: 50%;
+    border: 2px solid #555;
+    background-color: #5cb85c;
+    width: 50px;
+    height: 50px;    
+    border-radius: 100% 0 0 0; /*Orden parametros: borde izquierdo superior, borde derecho superior, borde derecho inferior, borde izquierdo inferior*/
+    /*-moz-border-radius: 0 100% 0 0;
+    -webkit-border-radius: 0 100% 0 0;*/
+    left: 52.6%;
+    top:41.7%;
+}
+
+.puertaAlcoba2{
+    position: fixed;
+    opacity: 50%;
+    border: 2px solid #555;
+    background-color: #5cb85c;
+    width: 50px;
+    height: 50px;
+    border-radius: 0 100% 0 0;
+    left: 55.75%;
+    top: 41.7%;
+}
+
+.puertaAlcoba1{
+    position: fixed;
+    opacity: 50%;
+    border: 2px solid #555;
+    background-color: #5cb85c;
+    width: 50px;
+    height: 50px;
+    border-radius: 0 0 100% 0;
+    left: 59.15%;
+    top: 48.6%;
+}
+
+.puertaBaño1{
+    position: fixed;
+    opacity: 50%;
+    border: 2px solid #555;
+    background-color: #5cb85c;
+    width: 42px;
+    height: 42px;
+    border-radius: 0 0 0 100%;
+    left: 51.8%;
+    top: 55.4%;
+}
+
+.puertaBaño2{
+    position: fixed;
+    opacity: 50%;
+    border: 2px solid #555;
+    background-color: #5cb85c;
+    width: 42px;
+    height: 42px;
+    border-radius: 0 0 0 100%;
+    left: 56.8%;
+    top: 55.4%;
+}
+
+.puertaPrincipal{
+    position: fixed;
+    opacity: 50%;
+    border: 2px solid #555;
+    background-color: #5cb85c;
+    width: 60px;
+    height: 60px;
+    border-radius: 0 100% 0 0;
+    left: 31.15%;
+    top: 65%;
+}
