@@ -1,15 +1,19 @@
 #container{
-    position: absolute;
+    position: relative;
     display: flex;
-    width: 99%;
-    height: 99%;
-    background-color: #ffffff;    
+    width: 1920px;
+    height: 1080px;
+    background-color: #ffffff;
+    background-image:url("../src/PlanoApartamento.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
 
-#plano{
+/*#plano{
     background-image:url("../src/PlanoApartamento.jpg");
     /*background-color: url("../src/PlanoApartamento.jpg");*/
-    background-size: 40%;
+    /*background-size: 40%;
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -23,235 +27,243 @@
     /*opacity: 50%;
 }*/
 .Alcoba3{
-    position: fixed;
+    position: absolute;
     background-color: #b7c725;
     opacity: 50%;
-    width: 157.3px;
-    height: 165px;
-    left: 47.15%;
-    top: 25%;
+    width: 216px;
+    height: 225px;
+    left: 887px;
+    top: 192px;
 }
 
 .Alcoba2{
-    position: fixed;
+    position: absolute;
     background-color: #b7c725;
     opacity: 50%;
-    width: 165px;
-    height:165px;
-    left: 55.75%;
-    top:25%;
+    width: 226px;
+    height:224px;
+    left: 1111px;
+    top:192px;
 }
 
 .Alcoba1{
-    position: fixed;
+    position: absolute;
     background-color: #b7c725;
     opacity: 50%;
-    width: 180px;
-    height: 301px;
-    left: 59.15%;
-    top: 48.6%;
+    width: 243px;
+    height: 362px;
+    left: 1203px;
+    top: 478px;
 }
 
 .baño1{
-    position: fixed;
+    position: absolute;
     background-color: #b7c725;
     opacity: 50%;
-    width: 78px;
-    height: 138px;
-    left: 50.1%;
-    top: 55.5%;
+    width: 108px;
+    height: 189px;
+    left: 964px;
+    top: 561px;
 }
 
 .baño2{
-    position: fixed;
+    position: absolute;
     background-color: #b7c725;
     opacity: 50%;
-    width: 78px;
-    height: 138px;
-    left: 54.7%;
-    top: 55.5%;
+    width: 108px;
+    height: 189px;
+    left: 1084px;
+    top: 561px;
 }
 
 .cocina{
-    position: fixed;
+    position: absolute;
     background-color: #b7c725;
     opacity: 50%;
-    width: 189px;
-    height: 113px;
-    left: 34.7%;
-    top: 58.5%;
+    width: 253px;
+    height: 153px;
+    left: 563px;
+    top: 597px;
 }
 
 .lavado{
-    position:fixed;
+    position:absolute;
     background-color: #b7c725;
     opacity: 50%;
-    width: 93px;
-    height: 95px;
-    left: 44.8%;
-    top: 60.4%;
+    width: 127px;
+    height: 130px;
+    left: 826px;
+    top: 620px;
 }
 
 .sala{
-    position: fixed;
+    position: absolute;
     background-color: #b7c725;
     opacity: 50%;
-    width: 297px;
-    height: 213px;
-    left:31.2%;
-    top:30.5%;
+    width: 406px;
+    height: 291px;
+    left:470px;
+    top: 258px;
 }
 
 .puertaAlcoba3{
-    position: fixed;
+    position: absolute;
     opacity: 50%;
     border: 2px solid #555;
     background-color: #5cb85c;
-    width: 50px;
-    height: 50px;    
-    border-radius: 100% 0 0 0; /*Orden parametros: borde izquierdo superior, borde derecho superior, borde derecho inferior, borde izquierdo inferior*/
-    /*-moz-border-radius: 0 100% 0 0;
-    -webkit-border-radius: 0 100% 0 0;*/
-    left: 52.6%;
-    top:41.7%;
+    width: 69px;
+    height: 69px;    
+    border-radius: 100% 0 0 0; /*Orden parametros: borde izquierdo superior, borde derecho superior, borde derecho inferior, borde izquierdo inferior*/    
+    left: 1031px;
+    top:394px;
 }
 
 .puertaAlcoba2{
-    position: fixed;
+    position: absolute;
     opacity: 50%;
     border: 2px solid #555;
     background-color: #5cb85c;
-    width: 50px;
-    height: 50px;
+    width: 69px;
+    height: 69px;
     border-radius: 0 100% 0 0;
-    left: 55.75%;
-    top: 41.7%;
+    left: 1111px;
+    top: 394px;
 }
 
 .puertaAlcoba1{
-    position: fixed;
+    position: absolute;
     opacity: 50%;
     border: 2px solid #555;
     background-color: #5cb85c;
-    width: 50px;
-    height: 50px;
+    width: 69px;
+    height: 69px;
     border-radius: 0 0 100% 0;
-    left: 59.15%;
-    top: 48.6%;
+    left: 1195px;
+    top: 478px;
 }
 
 .puertaBaño1{
-    position: fixed;
+    position: absolute;
     opacity: 50%;
     border: 2px solid #555;
     background-color: #5cb85c;
-    width: 42px;
-    height: 42px;
+    width: 58px;
+    height: 58px;
     border-radius: 0 0 0 100%;
-    left: 51.8%;
-    top: 55.4%;
+    left: 1141px;
+    top: 561px;
 }
 
 .puertaBaño2{
-    position: fixed;
+    position: absolute;
     opacity: 50%;
     border: 2px solid #555;
     background-color: #5cb85c;
-    width: 42px;
-    height: 42px;
+    width: 58px;
+    height: 58px;
     border-radius: 0 0 0 100%;
-    left: 56.8%;
-    top: 55.4%;
+    left: 1010px;
+    top: 550px;
 }
 
 .puertaPrincipal{
-    position: fixed;
+    position: absolute;
     opacity: 50%;
     border: 2px solid #555;
     background-color: #5cb85c;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 0 100% 0 0;
-    left: 31.15%;
-    top: 65%;
+    left: 470px;
+    top: 678px;
 }
 
 .ventanaAlcoba3{
-    position: fixed;
+    position: absolute;
     opacity: 50%;
     background-color: #00ffff; /*#3131fc Azul oscuro*/
-    width: 104px;
-    height: 8px;
-    left: 48.7%;
-    top: 24.1%;
+    width: 139px;
+    height: 11px;
+    left: 929.5px;
+    top: 181px;
 }
 
 .ventanaAlcoba2{
-    position: fixed;
+    position: absolute;
     opacity: 50%;
     background-color: #00ffff;
-    width: 104px;
-    height: 8px;
-    left: 57%;
-    top: 24.1%
+    width: 139px;
+    height: 11px;
+    left: 1147px;
+    top: 181px;
 }
 
 .ventanaAlcoba1{
-    position: fixed;
+    position: absolute;
     opacity: 50%;
     background-color: #00ffff;
-    width: 71px;
-    height: 8px;
-    left: 64.8%;
-    top: 47.7%;
+    width: 96px;
+    height: 11px;
+    left: 1350px;
+    top: 467px;
 }
 
 .ventanaBaño1{
-    position: fixed;
+    position: absolute;
     opacity: 50%;
     background-color: #00ffff;
-    width: 38px;
-    height: 8px;
-    left: 52.25%;
-    top: 71.2%;
+    width: 50px;
+    height: 10px;
+    left: 1109px;
+    top: 750px;
 }
 
 .ventanaBaño2{
-    position: fixed;
+    position: absolute;
     opacity: 50%;
     background-color: #00ffff;
-    width: 38px;
-    height: 8px;
-    left: 55.5%;
-    top: 71.2%;
+    width: 50px;
+    height: 10px;
+    left: 1022px;
+    top: 750px;
 }
 
 .ventanaLavado{
-    position: fixed;
+    position: absolute;
     opacity: 50%;
     background-color: #00ffff;
-    width: 38px;
-    height: 8px;
-    left: 47.7%;
-    top: 71.2%;
+    width: 50px;
+    height: 10px;
+    left: 903px;
+    top: 750px;
 }
 
 .ventanaIzquierdaBalcon{
-    position: fixed;
+    position: absolute;
     opacity: 50%;
     background-color: #00ffff;
-    width: 123px;
-    height: 8px;
-    left: 31.2%;
-    top: 29.5%;
+    width: 166px;
+    height: 12px;
+    left: 470px;
+    top: 246px;
 }
 
 .ventanaDerechaBalcon{
-    position: fixed;
+    position: absolute;
     opacity: 50%;
     background-color: #00ffff;
-    width: 123px;
-    height: 8px;
-    left: 40.3%;
-    top: 29.5%;
+    width: 167px;
+    height: 12px;
+    left: 709px;
+    top: 246px;
 }
+
+/*Prototipo objeto Persona*/
+.persona{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 100px;
+    top: 100px;
+}
+
